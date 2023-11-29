@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Content Remove="Views\Home\Index1.cshtml" />
+    <Content Remove="wwwroot\images\Burgsta.jpg" />
   </ItemGroup>
 
   <ItemGroup>

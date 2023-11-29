@@ -22,7 +22,7 @@ namespace Flash.Controllers
 			FlashContext db= new FlashContext();
              var  cats= db.Categories.ToList();
 
-			return View();
+			return View(cats);
         }
 
 

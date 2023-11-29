@@ -189,6 +189,10 @@
       "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-ThinItalic.ttf"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\fonts\\banner-03.jpg"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
       "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
     },
@@ -387,6 +391,22 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\linearicons-v1.0.0\\icon-font.min.css",
       "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\icon-font.min.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Burgsta1.jpg",
+      "PackagePath": "staticwebassets\\images\\Burgsta1.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Creme.jpg",
+      "PackagePath": "staticwebassets\\images\\Creme.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Crinkle.jpg",
+      "PackagePath": "staticwebassets\\images\\Crinkle.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Crinkle1.jpg",
+      "PackagePath": "staticwebassets\\images\\Crinkle1.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\about-01.jpg",
