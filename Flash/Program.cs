@@ -9,9 +9,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 //////////////////////////////////////////////////////////////////////////////////////////////
-var flashConnectionString = builder.Configuration.GetConnectionString("FlashConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(flashConnectionString));
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 

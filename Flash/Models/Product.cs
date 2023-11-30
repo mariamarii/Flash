@@ -20,6 +20,7 @@ namespace Flash.Models
         public bool? IsActive { get; set; }
         public DateTime? CreatedDate { get; set; }
         public int? CatId { get; set; }
+        public string? Type { get; set; }
 
         public virtual Category? Cat { get; set; }
         public virtual ICollection<Cart> Carts { get; set; }
