@@ -26,7 +26,7 @@ namespace Flash.Models
 
         // //////////////////////////////want to delete this function//////////////////////////////////////////////////// ////
 
-      /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
@@ -35,7 +35,7 @@ namespace Flash.Models
                 optionsBuilder.UseSqlServer("flashConnectionString");
                 ////////////////////////////////////////////////////////////////////////////////////
             }
-        }*/
+        }
      
         /// ////////////////////////////////////////////////////////////////////////////////////////
       
