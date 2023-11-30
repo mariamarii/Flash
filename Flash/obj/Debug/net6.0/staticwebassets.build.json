@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0nHaveGgreqO4XQRSLcsTWNzJDoL7rZFrWKWMZTlYPA=",
+  "Hash": "kc1cbfco3f5fE/w3jf0dwHJF7ZIMoQUy/Xzd+GM//6s=",
   "Source": "Flash",
   "BasePath": "_content/Flash",
   "Mode": "Default",
@@ -2788,12 +2788,12 @@
       "OriginalItemSpec": "wwwroot\\images\\menu5.jpg"
     },
     {
-      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu6jpg.jpg",
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu6.jpg",
       "SourceId": "Flash",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
       "BasePath": "_content/Flash",
-      "RelativePath": "images/menu6jpg.jpg",
+      "RelativePath": "images/menu6.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2802,7 +2802,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menu6jpg.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\menu6.jpg"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu7.jpg",

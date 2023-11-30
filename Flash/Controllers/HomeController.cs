@@ -24,7 +24,7 @@ namespace Flash.Controllers
 
 			return View(cats);
         }
-        public IActionResult Burgsta ()
+        public IActionResult Burgsta()
         {
             FlashContext db = new FlashContext();
             var menu_item = db.Products.ToList();

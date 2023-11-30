@@ -16,6 +16,10 @@ namespace Flash.Models
         public bool? IsActive { get; set; }
         public DateTime? CreatedDate { get; set; }
 
+        public string? Menu_Url { get; set; }
+        
+
+
         public virtual ICollection<Product> Products { get; set; }
     }
 }
