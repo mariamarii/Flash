@@ -31,10 +31,25 @@ namespace Flash.Controllers
 
             return View(menu_item);
         }
+		public IActionResult Creme()
+		{
+			FlashContext db = new FlashContext();
+			var menu_item = db.Products.ToList();
+
+			return View(menu_item);
+		}
+
+		public IActionResult Crinkle()
+		{
+			FlashContext db = new FlashContext();
+			var menu_item = db.Products.ToList();
+
+			return View(menu_item);
+		}
 
 
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

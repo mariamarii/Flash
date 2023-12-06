@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kc1cbfco3f5fE/w3jf0dwHJF7ZIMoQUy/Xzd+GM//6s=",
+  "Hash": "hEn5CHUy/xPRXSYBdgTXwtZTf9rN60vHHv62iszKI3g=",
   "Source": "Flash",
   "BasePath": "_content/Flash",
   "Mode": "Default",
@@ -1700,6 +1700,40 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Poppins\\Poppins-ThinItalic.ttf"
     },
     {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\2.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2.png"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\4.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4.png"
+    },
+    {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\about-01.jpg",
       "SourceId": "Flash",
       "SourceType": "Discovered",
@@ -1732,6 +1766,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\about-02.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Amandine Cake.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Amandine Cake.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Amandine Cake.png"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\avatar-01.jpg",
@@ -1904,6 +1955,23 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-09.jpg"
     },
     {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Beef Croissant Supreme.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Beef Croissant Supreme.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Beef Croissant Supreme.jpg"
+    },
+    {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\bg-01.jpg",
       "SourceId": "Flash",
       "SourceType": "Discovered",
@@ -1936,6 +2004,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bg-02.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Birona Brown Gateaux.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Birona Brown Gateaux.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Birona Brown Gateaux.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Black forest Cake.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Black forest Cake.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Black forest Cake.png"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\blog-01.jpg",
@@ -2074,6 +2176,74 @@
       "OriginalItemSpec": "wwwroot\\images\\Burgsta1.jpg"
     },
     {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Cappuccino.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Cappuccino.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cappuccino.png"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Cheese Crust.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Cheese Crust.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cheese Crust.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Choco Mango Cake.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Choco Mango Cake.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Choco Mango Cake.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Chocolate Mille Feuille.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Chocolate Mille Feuille.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Chocolate Mille Feuille.png"
+    },
+    {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Creme.jpg",
       "SourceId": "Flash",
       "SourceType": "Discovered",
@@ -2089,6 +2259,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Creme.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Crinkle Fries.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Crinkle Fries.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Crinkle Fries.jpg"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Crinkle.jpg",
@@ -2125,6 +2312,57 @@
       "OriginalItemSpec": "wwwroot\\images\\Crinkle1.jpg"
     },
     {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Doner Crust.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Doner Crust.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Doner Crust.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Dragon Chickza.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Dragon Chickza.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Dragon Chickza.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Dragon Fries.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Dragon Fries.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Dragon Fries.jpg"
+    },
+    {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\drink.jpg",
       "SourceId": "Flash",
       "SourceType": "Discovered",
@@ -2140,6 +2378,108 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\drink.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash11.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Flash11.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Flash11.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash111.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Flash111.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Flash111.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash1111.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Flash1111.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Flash1111.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash22.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Flash22.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Flash22.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash222.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Flash222.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Flash222.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Frappuccino.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Frappuccino.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Frappuccino.png"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\gallery-01.jpg",
@@ -2293,6 +2633,91 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gallery-09.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Hell Fries.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Hell Fries.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Hell Fries.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Honey Cake Gateaux.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Honey Cake Gateaux.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Honey Cake Gateaux.png"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Hotdog Pate.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Hotdog Pate.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Hotdog Pate.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\ice Latte.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/ice Latte.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ice Latte.png"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Ice Mocha.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Ice Mocha.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ice Mocha.png"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\favicon.png",
@@ -2652,6 +3077,91 @@
       "OriginalItemSpec": "wwwroot\\images\\item-cart-05.jpg"
     },
     {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Large Strawberry Cake.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Large Strawberry Cake.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Large Strawberry Cake.png"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Lotus Cheesecake gateaux.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Lotus Cheesecake gateaux.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Lotus Cheesecake gateaux.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Mayo Chickza.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Mayo Chickza.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Mayo Chickza.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Mayo Pizza Fries.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Mayo Pizza Fries.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Mayo Pizza Fries.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Medium Fruits Cake.png",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Medium Fruits Cake.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Medium Fruits Cake.png"
+    },
+    {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu1.jpg",
       "SourceId": "Flash",
       "SourceType": "Discovered",
@@ -2871,6 +3381,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\miniDonuts.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Mozzaella Sticks.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Mozzaella Sticks.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Mozzaella Sticks.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Onion Rings.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Onion Rings.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Onion Rings.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Plain Croissant.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Plain Croissant.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Plain Croissant.jpg"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\product-01.jpg",
@@ -3366,6 +3927,23 @@
       "OriginalItemSpec": "wwwroot\\images\\slide-07.jpg"
     },
     {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Super Crust.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Super Crust.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Super Crust.jpg"
+    },
+    {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\thumb-01.jpg",
       "SourceId": "Flash",
       "SourceType": "Discovered",
@@ -3415,6 +3993,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\thumb-03.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Turkey & Cheese Croissant.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Turkey & Cheese Croissant.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Turkey & Cheese Croissant.jpg"
+    },
+    {
+      "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Zinger Crust.jpg",
+      "SourceId": "Flash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SWE project\\Flash\\Flash\\wwwroot\\",
+      "BasePath": "_content/Flash",
+      "RelativePath": "images/Zinger Crust.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Zinger Crust.jpg"
     },
     {
       "Identity": "C:\\SWE project\\Flash\\Flash\\wwwroot\\js\\main.js",
@@ -4896,10 +5508,10 @@
       "OriginalItemSpec": "wwwroot\\vendor\\sweetalert\\sweetalert.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -4910,13 +5522,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -4927,13 +5539,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -4944,13 +5556,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -4961,13 +5573,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -4978,13 +5590,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -4995,13 +5607,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -5012,13 +5624,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -5029,13 +5641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -5046,13 +5658,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -5063,13 +5675,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -5080,13 +5692,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -5097,13 +5709,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -5114,13 +5726,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -5131,13 +5743,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -5148,13 +5760,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -5165,13 +5777,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -5182,13 +5794,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -5199,13 +5811,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -5216,13 +5828,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -5233,13 +5845,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -5250,13 +5862,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -5267,13 +5879,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -5284,13 +5896,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -5301,13 +5913,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -5318,13 +5930,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -5335,13 +5947,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -5352,13 +5964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -5369,13 +5981,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -5386,13 +5998,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -5403,13 +6015,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -5420,13 +6032,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -5437,13 +6049,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -5454,13 +6066,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -5471,13 +6083,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -5488,13 +6100,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -5505,13 +6117,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -5522,13 +6134,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -5539,13 +6151,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -5556,13 +6168,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -5573,13 +6185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -5590,13 +6202,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -5607,13 +6219,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -5624,13 +6236,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -5641,13 +6253,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -5658,13 +6270,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -5675,13 +6287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -5692,13 +6304,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -5709,13 +6321,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -5726,13 +6338,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -5743,13 +6355,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -5760,13 +6372,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -5777,13 +6389,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -5794,13 +6406,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -5811,13 +6423,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -5828,13 +6440,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -5845,13 +6457,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -5862,13 +6474,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -5879,13 +6491,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -5896,13 +6508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -5913,7 +6525,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.22\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\hsoopa\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.23\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     }
   ]
 }
