@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Flash.Data;
 
-public class FlashContext : IdentityDbContext<FlashUser>
+public class ApplicationDB : IdentityDbContext<FlashUser>
 {
-    public FlashContext(DbContextOptions<FlashContext> options)
+    public ApplicationDB(DbContextOptions<ApplicationDB> options)
         : base(options)
     {
     }

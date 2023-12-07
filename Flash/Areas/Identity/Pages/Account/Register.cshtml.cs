@@ -28,12 +28,14 @@ namespace Flash.Areas.Identity.Pages.Account
         private readonly UserManager<FlashUser> _userManager;
         private readonly IUserStore<FlashUser> _userStore;
         private readonly IUserEmailStore<FlashUser> _emailStore;
+        private readonly IUserPhoneNumberStore<FlashUser> _phoneStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
         public RegisterModel(
             UserManager<FlashUser> userManager,
             IUserStore<FlashUser> userStore,
+            IUserStore<FlashUser> phoneStore,
             SignInManager<FlashUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
@@ -44,6 +46,8 @@ namespace Flash.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _phoneStore = (IUserPhoneNumberStore<FlashUser>)phoneStore;
+          
         }
 
         /// <summary>
@@ -75,9 +79,16 @@ namespace Flash.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
+           
+            [Required]
+         
+            [Display(Name = "UserName")]
+            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            public string UserName { get; set; }
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
+            
             public string Email { get; set; }
 
             /// <summary>
@@ -98,6 +109,12 @@ namespace Flash.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            [Phone]
+            [Display(Name = "Phone Number")]
+            [StringLength(11, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 11)]
+            public string PhoneNumber { get; set; }
         }
 
 
@@ -115,10 +132,11 @@ namespace Flash.Areas.Identity.Pages.Account
             {
                 var user = CreateUser();
 
-                await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
+                await _userStore.SetUserNameAsync(user, Input.UserName,  CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-                var result = await _userManager.CreateAsync(user, Input.Password);
-
+                await _phoneStore.SetPhoneNumberAsync(user, Input.PhoneNumber, CancellationToken.None);
+                var result = await _userManager.CreateAsync(user,  Input.Password);
+                
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
