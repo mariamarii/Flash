@@ -10,6 +10,6 @@ namespace Flash.Models
         public string? Email { get; set; }
         public string? Subject { get; set; }
         public string? Message { get; set; }
-        public DateTime? CreatedDate { get; set; }
+        public DateTime? CreatesDate { get; set; }
     }
 }

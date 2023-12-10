@@ -9,6 +9,34 @@
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style12.css",
+      "PackagePath": "staticwebassets\\css\\style12.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style12.css.map",
+      "PackagePath": "staticwebassets\\css\\style12.css.map"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style12.scss",
+      "PackagePath": "staticwebassets\\css\\style12.scss"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\stylelog.css",
+      "PackagePath": "staticwebassets\\css\\stylelog.css"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\util.css",
       "PackagePath": "staticwebassets\\css\\util.css"
     },
@@ -393,6 +421,34 @@
       "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\icon-font.min.css"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\2.png",
       "PackagePath": "staticwebassets\\images\\2.png"
     },
@@ -483,6 +539,10 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash222.jpg",
       "PackagePath": "staticwebassets\\images\\Flash222.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flashreg.jpg",
+      "PackagePath": "staticwebassets\\images\\Flashreg.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Frappuccino.png",
@@ -605,6 +665,10 @@
       "PackagePath": "staticwebassets\\images\\bg-02.jpg"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\bg-registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-registration-form-1.jpg"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\blog-01.jpg",
       "PackagePath": "staticwebassets\\images\\blog-01.jpg"
     },
@@ -631,6 +695,10 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\brost.jpg",
       "PackagePath": "staticwebassets\\images\\brost.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\car.png",
+      "PackagePath": "staticwebassets\\images\\car.png"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\drink.jpg",
@@ -735,6 +803,58 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo-02.png",
       "PackagePath": "staticwebassets\\images\\icons\\logo-02.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo00-fococlipping-standard.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo00-fococlipping-standard.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo00.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\logo00.ico"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo00.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo00.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo01.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo01.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo02-fococlipping-standard.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo02-fococlipping-standard.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo02.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\logo02.ico"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo02.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo02.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo03.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo03.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo04.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo04.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo05.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\logo05.ico"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo05.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo05.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo07.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo07.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo6.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo6.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\pin.png",
@@ -899,6 +1019,10 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\product-min-03.jpg",
       "PackagePath": "staticwebassets\\images\\product-min-03.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\images\\registration-form-1.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\slide-01.jpg",

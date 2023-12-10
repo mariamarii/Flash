@@ -19,21 +19,21 @@ namespace Flash.Controllers
 
         public IActionResult Category()
         {
-			FlashContext db= new FlashContext();
+            aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context db = new aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context();
              var  cats= db.Categories.ToList();
 
-			return View(cats);
+            return View(cats);
         }
         public IActionResult Burgsta()
         {
-            FlashContext db = new FlashContext();
+            aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context db = new aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context();
             var menu_item = db.Products.ToList();
 
             return View(menu_item);
         }
 		public IActionResult Creme()
 		{
-			FlashContext db = new FlashContext();
+            aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context db = new aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context();
 			var menu_item = db.Products.ToList();
 
 			return View(menu_item);
@@ -41,7 +41,7 @@ namespace Flash.Controllers
 
 		public IActionResult Crinkle()
 		{
-			FlashContext db = new FlashContext();
+            aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context db = new aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context();
 			var menu_item = db.Products.ToList();
 
 			return View(menu_item);

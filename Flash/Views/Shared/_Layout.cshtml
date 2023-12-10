@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Home</title>
@@ -56,13 +58,19 @@
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
 							My Account
 						</a>
-						<a href="~/Identity/Account/Login" class="flex-c-m trans-04 p-lr-25">
+						@* @* @Html.Partial("_LoginPartial") *@
+				
+
+					
+
+
+						 <a href="~/Identity/Account/Login" class="flex-c-m trans-04 p-lr-25">
 							Login
 						</a>
 						<a href="~/Identity/Account/Register" class="flex-c-m trans-04 p-lr-25">
 							Register
 						</a>
-
+ 
 						
 					</div>
 				</div>
@@ -73,7 +81,10 @@
 
 					<!-- Logo desktop -->
 					<a href="#" class="logo">
-						<img src="~/images/icons/logo-01.png" alt="IMG-LOGO">
+						@* //<img src="~/images/icons/logo02-fococlipping-standard.png" alt="IMG-LOGO"> *@
+						<h3 style="color: black">Flash</h3>
+					
+					
 					</a>
 
 					<!-- Menu desktop -->
@@ -360,7 +371,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="item-slick1" style="background-image: url(/images/Flash222.jpg);">
+				<div class="item-slick1" style="background-image: url(/images/car.png);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0" style="text-align: right;">
@@ -370,13 +381,13 @@
 							</div>
 
 							<div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800" style="text-align: right;">
-								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
-									Jackets & Coats
+								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1" style="font-size: 1.5em;">
+									Empower your cravings with the speed of light	
 								</h2>
 							</div>
 
 							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600" style="text-align: right;">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg-yellow bor1 hov-btn1 p-lr-15 trans-04">
+								<a href="/home/Category" class="flex-c-m stext-101 cl0 size-101 bg-yellow bor1 hov-btn1 p-lr-15 trans-04">
 									Shop Now
 								</a>
 							</div>
