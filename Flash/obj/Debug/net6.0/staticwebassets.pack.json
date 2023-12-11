@@ -9,6 +9,34 @@
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style12.css",
+      "PackagePath": "staticwebassets\\css\\style12.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style12.css.map",
+      "PackagePath": "staticwebassets\\css\\style12.css.map"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\style12.scss",
+      "PackagePath": "staticwebassets\\css\\style12.scss"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\stylelog.css",
+      "PackagePath": "staticwebassets\\css\\stylelog.css"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\css\\util.css",
       "PackagePath": "staticwebassets\\css\\util.css"
     },
@@ -187,6 +215,10 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\Poppins\\Poppins-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\fonts\\banner-03.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
@@ -389,6 +421,194 @@
       "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\icon-font.min.css"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\2.png",
+      "PackagePath": "staticwebassets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Amandine Cake.png",
+      "PackagePath": "staticwebassets\\images\\Amandine Cake.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Beef Croissant Supreme.jpg",
+      "PackagePath": "staticwebassets\\images\\Beef Croissant Supreme.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Birona Brown Gateaux.jpg",
+      "PackagePath": "staticwebassets\\images\\Birona Brown Gateaux.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Black forest Cake.png",
+      "PackagePath": "staticwebassets\\images\\Black forest Cake.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Burgsta1.jpg",
+      "PackagePath": "staticwebassets\\images\\Burgsta1.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Cappuccino.png",
+      "PackagePath": "staticwebassets\\images\\Cappuccino.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Cheese Crust.jpg",
+      "PackagePath": "staticwebassets\\images\\Cheese Crust.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Choco Mango Cake.jpg",
+      "PackagePath": "staticwebassets\\images\\Choco Mango Cake.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Chocolate Mille Feuille.png",
+      "PackagePath": "staticwebassets\\images\\Chocolate Mille Feuille.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Creme.jpg",
+      "PackagePath": "staticwebassets\\images\\Creme.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Crinkle Fries.jpg",
+      "PackagePath": "staticwebassets\\images\\Crinkle Fries.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Crinkle.jpg",
+      "PackagePath": "staticwebassets\\images\\Crinkle.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Crinkle1.jpg",
+      "PackagePath": "staticwebassets\\images\\Crinkle1.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Doner Crust.jpg",
+      "PackagePath": "staticwebassets\\images\\Doner Crust.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Dragon Chickza.jpg",
+      "PackagePath": "staticwebassets\\images\\Dragon Chickza.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Dragon Fries.jpg",
+      "PackagePath": "staticwebassets\\images\\Dragon Fries.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash11.jpg",
+      "PackagePath": "staticwebassets\\images\\Flash11.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash111.jpg",
+      "PackagePath": "staticwebassets\\images\\Flash111.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash1111.jpg",
+      "PackagePath": "staticwebassets\\images\\Flash1111.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash22.jpg",
+      "PackagePath": "staticwebassets\\images\\Flash22.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flash222.jpg",
+      "PackagePath": "staticwebassets\\images\\Flash222.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Flashreg.jpg",
+      "PackagePath": "staticwebassets\\images\\Flashreg.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Frappuccino.png",
+      "PackagePath": "staticwebassets\\images\\Frappuccino.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Hell Fries.jpg",
+      "PackagePath": "staticwebassets\\images\\Hell Fries.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Honey Cake Gateaux.png",
+      "PackagePath": "staticwebassets\\images\\Honey Cake Gateaux.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Hotdog Pate.jpg",
+      "PackagePath": "staticwebassets\\images\\Hotdog Pate.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Ice Mocha.png",
+      "PackagePath": "staticwebassets\\images\\Ice Mocha.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Large Strawberry Cake.png",
+      "PackagePath": "staticwebassets\\images\\Large Strawberry Cake.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Lotus Cheesecake gateaux.jpg",
+      "PackagePath": "staticwebassets\\images\\Lotus Cheesecake gateaux.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Mayo Chickza.jpg",
+      "PackagePath": "staticwebassets\\images\\Mayo Chickza.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Mayo Pizza Fries.jpg",
+      "PackagePath": "staticwebassets\\images\\Mayo Pizza Fries.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Medium Fruits Cake.png",
+      "PackagePath": "staticwebassets\\images\\Medium Fruits Cake.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Mozzaella Sticks.jpg",
+      "PackagePath": "staticwebassets\\images\\Mozzaella Sticks.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Onion Rings.jpg",
+      "PackagePath": "staticwebassets\\images\\Onion Rings.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Plain Croissant.jpg",
+      "PackagePath": "staticwebassets\\images\\Plain Croissant.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Super Crust.jpg",
+      "PackagePath": "staticwebassets\\images\\Super Crust.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Turkey & Cheese Croissant.jpg",
+      "PackagePath": "staticwebassets\\images\\Turkey & Cheese Croissant.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\Zinger Crust.jpg",
+      "PackagePath": "staticwebassets\\images\\Zinger Crust.jpg"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\about-01.jpg",
       "PackagePath": "staticwebassets\\images\\about-01.jpg"
     },
@@ -445,6 +665,10 @@
       "PackagePath": "staticwebassets\\images\\bg-02.jpg"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\bg-registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-registration-form-1.jpg"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\blog-01.jpg",
       "PackagePath": "staticwebassets\\images\\blog-01.jpg"
     },
@@ -467,6 +691,18 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\blog-06.jpg",
       "PackagePath": "staticwebassets\\images\\blog-06.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\brost.jpg",
+      "PackagePath": "staticwebassets\\images\\brost.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\car.png",
+      "PackagePath": "staticwebassets\\images\\car.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\drink.jpg",
+      "PackagePath": "staticwebassets\\images\\drink.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\gallery-01.jpg",
@@ -503,6 +739,10 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\gallery-09.jpg",
       "PackagePath": "staticwebassets\\images\\gallery-09.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\ice Latte.png",
+      "PackagePath": "staticwebassets\\images\\ice Latte.png"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\favicon.png",
@@ -565,6 +805,58 @@
       "PackagePath": "staticwebassets\\images\\icons\\logo-02.png"
     },
     {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo00-fococlipping-standard.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo00-fococlipping-standard.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo00.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\logo00.ico"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo00.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo00.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo01.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo01.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo02-fococlipping-standard.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo02-fococlipping-standard.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo02.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\logo02.ico"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo02.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo02.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo03.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo03.png"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo04.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo04.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo05.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\logo05.ico"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo05.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo05.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo07.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo07.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\logo6.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo6.jpg"
+    },
+    {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\icons\\pin.png",
       "PackagePath": "staticwebassets\\images\\icons\\pin.png"
     },
@@ -587,6 +879,58 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\item-cart-05.jpg",
       "PackagePath": "staticwebassets\\images\\item-cart-05.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu1.jpg",
+      "PackagePath": "staticwebassets\\images\\menu1.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu10.jpg",
+      "PackagePath": "staticwebassets\\images\\menu10.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu11.jpg",
+      "PackagePath": "staticwebassets\\images\\menu11.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu12.jpg",
+      "PackagePath": "staticwebassets\\images\\menu12.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu2.jpg",
+      "PackagePath": "staticwebassets\\images\\menu2.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu3.jpg",
+      "PackagePath": "staticwebassets\\images\\menu3.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu4.jpg",
+      "PackagePath": "staticwebassets\\images\\menu4.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu5.jpg",
+      "PackagePath": "staticwebassets\\images\\menu5.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu6.jpg",
+      "PackagePath": "staticwebassets\\images\\menu6.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu7.jpg",
+      "PackagePath": "staticwebassets\\images\\menu7.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu8.jpg",
+      "PackagePath": "staticwebassets\\images\\menu8.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\menu9.jpg",
+      "PackagePath": "staticwebassets\\images\\menu9.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\miniDonuts.jpg",
+      "PackagePath": "staticwebassets\\images\\miniDonuts.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\product-01.jpg",
@@ -675,6 +1019,10 @@
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\product-min-03.jpg",
       "PackagePath": "staticwebassets\\images\\product-min-03.jpg"
+    },
+    {
+      "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\images\\registration-form-1.jpg"
     },
     {
       "Id": "C:\\SWE project\\Flash\\Flash\\wwwroot\\images\\slide-01.jpg",

@@ -7,7 +7,7 @@ namespace Flash.Models
     {
         public Payment()
         {
-            Orders = new HashSet<Order>();
+            OrderHeaders = new HashSet<OrderHeader>();
         }
 
         public int Id { get; set; }
@@ -16,8 +16,8 @@ namespace Flash.Models
         public string? ExpiryDate { get; set; }
         public int? CvvNo { get; set; }
         public string? Address { get; set; }
-        public byte[]? PaymentMode { get; set; }
+        public string? PaymentMode { get; set; }
 
-        public virtual ICollection<Order> Orders { get; set; }
+        public virtual ICollection<OrderHeader> OrderHeaders { get; set; }
     }
 }

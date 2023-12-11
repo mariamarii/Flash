@@ -1,26 +1,30 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+﻿@using Flash.Areas.Identity.Data;
+@using Microsoft.AspNetCore.Identity
 
-<ul class="navbar-nav">
+@inject SignInManager<FlashUser> SignInManager
+@inject UserManager<FlashUser> UserManager
+
+
 @if (SignInManager.IsSignedIn(User))
 {
-    <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+    <li class="right-top-bar flex-w h-full">
+        <a class="flex-c-m trans-04 p-lr-25" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>
     </li>
-    <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+    <li class="right-top-bar flex-w h-full">
+        <form class="flex-c-m trans-04 p-lr-25" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button type="submit" style="  color: lightgray ; background-color: transparent" class="logout-button">
+                Logout
+            </button>
         </form>
     </li>
+
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    <li class="right-top-bar flex-w h-full">
+        <a class="flex-c-m trans-04 p-lr-25" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    <li class="right-top-bar flex-w h-full">
+        <a class="flex-c-m trans-04 p-lr-25" asp-area="Identity" asp-page="/Account/Login">Login</a>
     </li>
 }
-</ul>
