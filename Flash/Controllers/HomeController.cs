@@ -5,12 +5,14 @@ using System.Net.Mail;
 using Microsoft.Extensions.Logging;
 using System.Net;
 using Microsoft.Build.Framework;
+using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.EntityFrameworkCore;
 
 namespace Flash.Controllers
 {
     public class HomeController : Controller
     {
-       
+
         public IActionResult Index()
         {
             return View();
@@ -50,68 +52,47 @@ namespace Flash.Controllers
 
             return View(menu_item);
         }
-        [HttpGet]
+
         public IActionResult Contact()
         {
             return View();
         }
 
-            [HttpPost]
-
-        
-        public IActionResult Contact(Contact contact)
+        [HttpPost]
+        public IActionResult SaveContact(Contact model)
         {
-            if (!ModelState.IsValid) return View();
-
-            try
+            using (var db = new aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context())
             {
-                MailMessage mail = new MailMessage();
-                // you need to enter your mail address
-                mail.From = new MailAddress("fromemailaddress@example.com");
+                try
+                {
+                    // Add the entity to the context
+                    db.Contacts.Add(model);
+                    db.Entry(model).State = EntityState.Added;
+                    var entry = db.Entry(model);
+                    Console.WriteLine($"Entity State: {entry.State}");
 
-                //To Email Address - your need to enter your to email address
-                mail.To.Add("toemailaddress@example.com");
+                    // Save changes to the database
+                    db.SaveChanges();
 
-                mail.Subject = contact.Subject;
+                    // Optionally, do more operations if needed
 
-                //you can specify also CC and BCC - i will skip this
-                //mail.CC.Add("");
-                //mail.Bcc.Add("");
-
-                mail.IsBodyHtml = true;
-
-                string content = "Name : " + contact.Name;
-                content += "<br/> Message : " + contact.Message;
-
-                mail.Body = content;
-
-
-                //create SMTP instant
-
-                //you need to pass mail server address and you can also specify the port number if you required
-                SmtpClient smtpClient = new SmtpClient("mail.example.com");
-
-                //Create nerwork credential and you need to give from email address and password
-                NetworkCredential networkCredential = new NetworkCredential("fromemailaddress@example.com", "password");
-                smtpClient.UseDefaultCredentials = false;
-                smtpClient.Credentials = networkCredential;
-                smtpClient.Port = 25; // this is default port number - you can also change this
-                smtpClient.EnableSsl = false; // if ssl required you need to enable it
-                smtpClient.Send(mail);
-
-                ViewBag.Message = "Mail Send";
-
-                // now i need to create the from 
-                ModelState.Clear();
-
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    // Log or print the exception details
+                    Console.WriteLine($"Error during SaveChanges(): {ex.Message}");
+                    // Optionally, handle the exception appropriately
+                    // You can redirect to an error page or return an error view
+                    return View("Error");
+                }
             }
-            catch (Exception ex)
-            {
-                //If any error occured it will show
-                ViewBag.Message = ex.Message.ToString();
-            }
-            return View();
         }
-    }
 
+
+    }
 }
+        
+        
+           
+       
