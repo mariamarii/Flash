@@ -35,12 +35,14 @@ namespace Flash.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=.\\SQL2022;Database=aspnet-Flash-ea0b459b-975b-45bc-b0db-4ccd1080c8c3;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=.;Database=aspnet-Flash-ea0b459b-975b-45bc-b0db-4ccd1080c8c3;Trusted_Connection=True;");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.UseCollation("SQL_Latin1_General_CP1_CI_AS");
+
             modelBuilder.Entity<AspNetRole>(entity =>
             {
                 entity.HasIndex(e => e.NormalizedName, "RoleNameIndex")
@@ -69,6 +71,10 @@ namespace Flash.Models
                     .IsUnique()
                     .HasFilter("([NormalizedUserName] IS NOT NULL)");
 
+                entity.Property(e => e.City)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.Discriminator).HasDefaultValueSql("(N'')");
 
                 entity.Property(e => e.Email).HasMaxLength(256);
@@ -76,6 +82,18 @@ namespace Flash.Models
                 entity.Property(e => e.NormalizedEmail).HasMaxLength(256);
 
                 entity.Property(e => e.NormalizedUserName).HasMaxLength(256);
+
+                entity.Property(e => e.PostalCode)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.State)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.StreetAddress)
+                    .HasMaxLength(250)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.UserName).HasMaxLength(256);
 
@@ -212,6 +230,10 @@ namespace Flash.Models
 
                 entity.Property(e => e.PaymentDate).HasColumnType("datetime");
 
+                entity.Property(e => e.PaymentIntentId)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.PaymentStatus)
                     .HasMaxLength(50)
                     .IsUnicode(false);
@@ -244,12 +266,6 @@ namespace Flash.Models
 
                 entity.Property(e => e.UserId).HasMaxLength(450);
 
-                entity.HasOne(d => d.PaymentIntent)
-                    .WithMany(p => p.OrderHeaders)
-                    .HasForeignKey(d => d.PaymentIntentId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_OrderHeader_Payment");
-
                 entity.HasOne(d => d.User)
                     .WithMany(p => p.OrderHeaders)
                     .HasForeignKey(d => d.UserId)
@@ -261,7 +277,10 @@ namespace Flash.Models
             {
                 entity.ToTable("Payment");
 
-                entity.Property(e => e.Id).HasColumnName("ID");
+                entity.Property(e => e.Id)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("ID");
 
                 entity.Property(e => e.Address).IsUnicode(false);
 

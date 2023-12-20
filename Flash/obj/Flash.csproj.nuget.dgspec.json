@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\farah\\OneDrive\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj": {}
+    "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\farah\\OneDrive\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj": {
+    "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farah\\OneDrive\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj",
+        "projectUniqueName": "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj",
         "projectName": "Flash",
-        "projectPath": "C:\\Users\\farah\\OneDrive\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj",
-        "packagesPath": "C:\\Users\\farah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farah\\OneDrive\\Documents\\GitHub\\Flash\\Flash\\obj\\",
+        "projectPath": "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj",
+        "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\farah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,6 +73,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[43.6.0, )"
             }
           },
           "imports": [

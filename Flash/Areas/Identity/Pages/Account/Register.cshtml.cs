@@ -1,7 +1,8 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
-
+using Flash.Repositories;
+using Flash.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,6 +20,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.WebUtilities;
 
 namespace Flash.Areas.Identity.Pages.Account
 {
@@ -115,7 +119,21 @@ namespace Flash.Areas.Identity.Pages.Account
             [Display(Name = "Phone Number")]
             [StringLength(11, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 11)]
             public string PhoneNumber { get; set; }
-        }
+			[Required]
+      
+            public string City { get; set; }
+            [Required]
+            
+            public string State { get; set; }
+            [Required]
+            
+            public string PostalCode { get; set; }
+            [Required]
+           
+            public string StreetAddress { get; set; }
+			
+
+		}
 
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -131,11 +149,20 @@ namespace Flash.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
+				user.StreetAddress = Input.StreetAddress;
+				user.City = Input.City;
+				user.State = Input.State;
+				user.PostalCode = Input.PostalCode;
+				user.PhoneNumber = Input.PhoneNumber;
 
-                await _userStore.SetUserNameAsync(user, Input.UserName,  CancellationToken.None);
+				await _userStore.SetUserNameAsync(user, Input.UserName,  CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 await _phoneStore.SetPhoneNumberAsync(user, Input.PhoneNumber, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user,  Input.Password);
+                //user.StreetAddress = Input.StreetAddress;
+                //user.City = Input.City;
+                //user.State = Input.State;
+                //user.PostalCode = Input.PostalCode;
                 
                 if (result.Succeeded)
                 {

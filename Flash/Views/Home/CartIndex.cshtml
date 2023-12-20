@@ -1,0 +1,654 @@
+﻿@model ShoppingCartVM
+
+
+<!-- Cart -->
+@* <div class="wrap-header-cart js-panel-cart">
+	<div class="s-full js-hide-cart"></div>
+
+	<div class="header-cart flex-col-l p-l-65 p-r-25">
+		<div class="header-cart-title flex-w flex-sb-m p-b-8">
+			<span class="mtext-103 cl2">
+				Your Cart
+			</span>
+
+			<div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
+				<i class="zmdi zmdi-close"></i>
+			</div>
+		</div>
+
+		<div class="header-cart-content flex-w js-pscroll">
+
+			<ul class="header-cart-wrapitem w-full">
+				@*  @foreach (var item in Model.ShoppingCartList)
+                    { *@
+				@* <li class="header-cart-item flex-w flex-t m-b-12">
+					
+					<div class="header-cart-item-img">
+							<img src="~/images/2.png" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							name
+						</a>
+
+						<span class="header-cart-item-info">
+								1234 p
+						</span>
+					</div>
+				</li> *@
+					@* } *@
+			@* </ul>
+
+			<div class="w-full">
+				<div class="header-cart-total w-full p-tb-40">
+					Total: $75.00
+				</div>
+
+				<div class="header-cart-buttons flex-w w-full">
+					<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						View Cart
+					</a>
+
+					<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						Check Out
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> *@@* 
+<link rel="stylesheet" type="text/css" href="~/css/CartIn.css">
+<div class="container px-4 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-5">
+            <h4 class="heading">Shopping Bag</h4>
+        </div>
+        <div class="col-7">
+            <div class="row text-right">
+                
+                <div class="col-4">
+                    <h6 class="mt-2">Quantity</h6>
+                </div>
+                <div class="col-4">
+                    <h6 class="mt-2">Price</h6>
+                </div>
+                <div class="col-4">
+                    <h6 class="mt-2">Format</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     @foreach (var item in Model.ShoppingCartList)
+                    {
+
+    <div class="row d-flex justify-content-center border-top">
+        <div class="col-5">
+            <div class="row d-flex">
+                <div class="book">
+                        <img src="~/images/@item.Product.ImageUrl" class="book-img">
+                </div>
+                <div class="my-auto flex-column d-flex pad-left">
+                        <p class="mob-text">@item.Product.Name</p>
+                </div>
+            </div>
+        </div>
+        <div class="my-auto col-7">
+            <div class="row text-right">
+                
+                <div class="col-4">
+                    <div class="row d-flex justify-content-end px-3">
+                            <p class="mb-0" id="cnt2">@item.Count</p>
+                            <a asp-action="plus" asp-route-cartId="@item.Id" class="btn btn-outline-primary bg-gradient py-2">
+                                <i class="bi bi-plus-square"></i>
+                            </a> &nbsp;
+                            <a asp-action="minus" asp-route-cartId="@item.Id" class="btn btn-outline-primary bg-gradient py-2">
+                                <i class="bi bi-dash-square"></i>
+                            </a>
+                        
+                    </div>
+                </div>
+                <div class="col-4">
+                        <h6 class="mob-text">@item.Product.Price</h6> x <h6 class="mob-text">@item.Count</h6>
+                </div>
+                    <div class="col-4">
+                        <a asp-action="remove" asp-route-cartId="@item.Id" class="btn btn-danger bg-gradient py-2 ">
+                            <i class="bi bi-trash-fill"></i>
+                        </a>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+    }
+    <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="row">
+                    <div class="col-lg-3 radio-group">
+                        <div class="row d-flex px-3 radio">
+                            <img class="pay" src="https://i.imgur.com/WIAP9Ku.jpg">
+                            <p class="my-auto">Credit Card</p>
+                        </div>
+                        <div class="row d-flex px-3 radio gray">
+                            <img class="pay" src="https://i.imgur.com/OdxcctP.jpg">
+                            <p class="my-auto">Debit Card</p>
+                        </div>
+                        <div class="row d-flex px-3 radio gray mb-3">
+                            <img class="pay" src="https://i.imgur.com/cMk1MtK.jpg">
+                            <p class="my-auto">PayPal</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row px-2">
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">Name on Card</label>
+                                <input type="text" id="cname" name="cname" placeholder="Johnny Doe">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">Card Number</label>
+                                <input type="text" id="cnum" name="cnum" placeholder="1111 2222 3333 4444">
+                            </div>
+                        </div>
+                        <div class="row px-2">
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">Expiration Date</label>
+                                <input type="text" id="exp" name="exp" placeholder="MM/YYYY">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="***">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-2">
+                        <div class="row d-flex justify-content-between px-4">
+                            <p class="mb-1 text-left">Subtotal</p>
+                            <h6 class="mb-1 text-right">$23.49</h6>
+                        </div>
+                        <div class="row d-flex justify-content-between px-4">
+                            <p class="mb-1 text-left">Shipping</p>
+                            <h6 class="mb-1 text-right">$2.99</h6>
+                        </div>
+                        <div class="row d-flex justify-content-between px-4" id="tax">
+                            <p class="mb-1 text-left">Total (tax included)</p>
+                            <h6 class="mb-1 text-right">$26.48</h6>
+                        </div>
+                        <a asp-action="Summary" class="btn-block btn-blue">
+                            <span>
+                                <span id="checkout">Checkout</span>
+                                <span id="check-amt">$26.48</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> *@
+@* 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="~/css/CartIn.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+    <meta name="robots" content="noindex,follow" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+            Shopping Bag
+        </div>
+
+        <!-- Product #1 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image">
+                <img src="~/images/item-1.png" alt="" />
+            </div>
+
+            <div class="description">
+                <span>Common Projects</span>
+                <span>Bball High</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="~/images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$549</div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image">
+                <img src="~/images/item2.png" alt="" width="120" height="80" />
+            </div>
+
+            <div class="description">
+                <span>Maison Margiela</span>
+                <span>Future Sneakers</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$870</div>
+        </div>
+
+        <!-- Product #3 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image">
+                <img src="~/images/item-3.png" alt="" width="120" height="80" />
+            </div>
+
+            <div class="description">
+                <span>Our Legacy</span>
+                <span>Brushed Scarf</span>
+                <span>Brown</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="~/images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$349</div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image">
+                <img src="~/images/item-2.png" alt="" />
+            </div>
+
+            <div class="description">
+                <span>Maison Margiela</span>
+                <span>Future Sneakers</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="~/images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$870</div>
+        </div>
+
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image">
+                <img src="~/images/item-2.png" alt="" />
+            </div>
+
+            <div class="description">
+                <span>Maison Margiela</span>
+                <span>Future Sneakers</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="~/images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$870</div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image">
+                <img src="~/images/item1.png" alt="" width="120" height="80" />
+            </div>
+
+            <div class="description">
+                <span>Maison Margiela</span>
+                <span>Future Sneakers</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="~/images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$870</div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image">
+                <img src="~/images/item-2.png" alt="" width="120" height="80" width="120" height="80" />
+            </div>
+
+            <div class="description">
+                <span>Maison Margiela</span>
+                <span>Future Sneakers</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="~/images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$870</div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <!-- <span class="like-btn"></span> -->
+            </div>
+
+            <div class="image">
+                <img src="~/images/item.jpg" alt="" width="120" height="80" />
+            </div>
+
+            <div class="description">
+                <span>Maison Margiela</span>
+                <span>Future Sneakers</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="~/images/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="~/images/minus-btn" type="button" name="button">
+                    <img src="~/images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">$870</div>
+        </div>
+
+
+
+    </div>
+
+    <script type="text/javascript">
+        $('.minus-btn').on('click', function (e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value > 1) {
+                value = value - 1;
+            } else {
+                value = 0;
+            }
+
+            $input.val(value);
+
+        });
+
+        $('.plus-btn').on('click', function (e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value < 100) {
+                value = value + 1;
+            } else {
+                value = 100;
+            }
+
+            $input.val(value);
+        });
+
+        $('.like-btn').on('click', function () {
+            $(this).toggleClass('is-active');
+        });
+    </script>
+</body>
+</html>
+ *@
+@* <script>
+    $(document).ready(function () {
+
+        $('.radio-group .radio').click(function () {
+            $('.radio').addClass('gray');
+            $(this).removeClass('gray');
+        });
+
+        $('.plus-minus .plus').click(function () {
+            var count = $(this).parent().prev().text();
+            $(this).parent().prev().html(Number(count) + 1);
+        });
+
+        $('.plus-minus .minus').click(function () {
+            var count = $(this).parent().prev().text();
+            $(this).parent().prev().html(Number(count) - 1);
+        });
+
+    });
+</script> *@
+<link rel="stylesheet" type="text/css" href="~/css/CartIn.css">
+
+<div class="container px-4 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-5">
+            <h4 class="heading">Shopping Bag</h4>
+        </div>
+        <div class="col-7">
+            <div class="row text-right">
+
+                <div class="col-4">
+                    <h6 class="mt-2">Quantity</h6>
+                </div>
+                <div class="col-4">
+                    <h6 class="mt-2">Price</h6>
+                </div>
+                <div class="col-4">
+                    <h6 class="mt-2">Format</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @foreach (var item in Model.ShoppingCartList)
+    {
+
+        <div class="row d-flex justify-content-center border-top">
+            <div class="col-5">
+                <div class="row d-flex">
+                    <div class="book">
+                        <img src="~/images/@item.Product.ImageUrl" class="book-img">
+                    </div>
+                    <div class="my-auto flex-column d-flex pad-left">
+                        <p class="mob-text">@item.Product.Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-auto col-7">
+                <div class="row text-right">
+
+                    <div class="col-4">
+                        <div class="row d-flex justify-content-end px-3">
+                            <p class="mb-0" id="cnt2">@item.Count</p>
+                            <a asp-action="plus" asp-route-cartId="@item.Id" class="btn btn-outline-primary bg-gradient py-2">
+                                <i class="bi bi-plus-square"></i>
+                            </a> &nbsp;
+                            <a asp-action="minus" asp-route-cartId="@item.Id" class="btn btn-outline-primary bg-gradient py-2">
+                                <i class="bi bi-dash-square"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h6 class="mob-text">@item.Product.Price</h6> x <h6 class="mob-text">@item.Count</h6>
+                    </div>
+                    <div class="col-4">
+                        <a asp-action="remove" asp-route-cartId="@item.Id" class="btn btn-danger bg-gradient py-2 ">
+                            <i class="bi bi-trash-fill"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="row">
+                    <div class="col-lg-3 radio-group">
+                        <div class="row d-flex px-3 radio">
+                            <img class="pay" src="https://i.imgur.com/WIAP9Ku.jpg">
+                            <p class="my-auto">Credit Card</p>
+                        </div>
+                        <div class="row d-flex px-3 radio gray">
+                            <img class="pay" src="https://i.imgur.com/OdxcctP.jpg">
+                            <p class="my-auto">Debit Card</p>
+                        </div>
+                        <div class="row d-flex px-3 radio gray mb-3">
+                            <img class="pay" src="https://i.imgur.com/cMk1MtK.jpg">
+                            <p class="my-auto">PayPal</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row px-2">
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">Name on Card</label>
+                                <input type="text" id="cname" name="cname" placeholder="Johnny Doe">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">Card Number</label>
+                                <input type="text" id="cnum" name="cnum" placeholder="1111 2222 3333 4444">
+                            </div>
+                        </div>
+                        <div class="row px-2">
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">Expiration Date</label>
+                                <input type="text" id="exp" name="exp" placeholder="MM/YYYY">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="form-control-label">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="***">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-2">
+                        <div class="row d-flex justify-content-between px-4">
+                            <p class="mb-1 text-left">Subtotal</p>
+                            <h6 class="mb-1 text-right">$23.49</h6>
+                        </div>
+                        <div class="row d-flex justify-content-between px-4">
+                            <p class="mb-1 text-left">Shipping</p>
+                            <h6 class="mb-1 text-right">$2.99</h6>
+                        </div>
+                        <div class="row d-flex justify-content-between px-4" id="tax">
+                            <p class="mb-1 text-left">Total (tax included)</p>
+                            <h6 class="mb-1 text-right">$26.48</h6>
+                        </div>
+                        <form asp-action="Summary" asp-controller="Home">
+                            <button class="btn-block btn-blue">
+                                <span>
+                                    <span id="checkout">Checkout</span>
+                                    <span id="check-amt">$26.48</span>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

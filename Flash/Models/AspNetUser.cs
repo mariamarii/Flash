@@ -31,6 +31,10 @@ namespace Flash.Models
         public bool LockoutEnabled { get; set; }
         public int AccessFailedCount { get; set; }
         public string Discriminator { get; set; } = null!;
+        public string? StreetAddress { get; set; }
+        public string? City { get; set; }
+        public string? State { get; set; }
+        public string? PostalCode { get; set; }
 
         public virtual ICollection<AspNetUserClaim> AspNetUserClaims { get; set; }
         public virtual ICollection<AspNetUserLogin> AspNetUserLogins { get; set; }

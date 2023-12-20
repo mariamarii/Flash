@@ -20,7 +20,7 @@ namespace Flash.Models
         public string? TrackingNumber { get; set; }
         public DateTime? PaymentDate { get; set; }
         public string? SessionId { get; set; }
-        public int PaymentIntentId { get; set; }
+        public string? PaymentIntentId { get; set; }
         public string PhoneNumber { get; set; } = null!;
         public string StreetAddress { get; set; } = null!;
         public string City { get; set; } = null!;
@@ -28,7 +28,6 @@ namespace Flash.Models
         public string PostalCode { get; set; } = null!;
         public string Name { get; set; } = null!;
 
-        public virtual Payment PaymentIntent { get; set; } = null!;
         public virtual AspNetUser User { get; set; } = null!;
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
