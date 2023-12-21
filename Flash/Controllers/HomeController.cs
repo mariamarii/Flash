@@ -11,13 +11,14 @@ using System.Security.Claims;
 using Flash.Repositories;
 using Stripe.Checkout;
 using Microsoft.AspNetCore.Authorization;
+using System.Linq;
 
 namespace Flash.Controllers
 {
     public class HomeController : Controller
     {
 		private readonly IUnityOfWork _unityOfWork;
-		[BindProperty]
+        [BindProperty]
 		public ShoppingCartVM ShoppingCartVM { get; set; }
 
 		public HomeController(IUnityOfWork unityOfWork)
@@ -146,7 +147,7 @@ namespace Flash.Controllers
             {
                 ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId,
                 includeProperties: "Product"),
-                OrderHeader = new OrderHeader()
+                OrderHeader = new()
             };
 
             ShoppingCartVM.OrderHeader.User = _unityOfWork.User.Get(u => u.Id == userId);
@@ -165,9 +166,9 @@ namespace Flash.Controllers
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
 
             }
-            _unityOfWork.OrderHeader.Update(ShoppingCartVM.OrderHeader);
-			_unityOfWork.Save();
-            return View("Summary", ShoppingCartVM);
+		      _unityOfWork.OrderHeader.Update(ShoppingCartVM.OrderHeader);
+		      _unityOfWork.Save();
+            return View(ShoppingCartVM);
         }
 
 
@@ -176,12 +177,14 @@ namespace Flash.Controllers
 
         [HttpPost]
 		[ActionName("Summary")]
-		// [ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public IActionResult SummaryPost()
 		{
 			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
-            ShoppingCartVM.OrderHeader = _unityOfWork.OrderHeader.Get(u => u.UserId == userId);
+            ShoppingCartVM.OrderHeader = _unityOfWork.OrderHeader
+			  .GetLast(o => o.UserId == userId);
+
 
             ShoppingCartVM.ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId, includeProperties: "Product");
 

@@ -71,5 +71,55 @@ namespace Flash.Repositories
 		{
 			DbSet.Remove(entity);
 		}
-	}
+
+        public OrderHeader GetLast(Expression<Func<OrderHeader, bool>> filter, Expression<Func<OrderHeader, DateTime>> orderByDescending, bool tracked = false, string includeProperties = null)
+        {
+            IQueryable<OrderHeader> query = _db.Set<OrderHeader>();
+
+            if (!tracked)
+            {
+                query = query.AsNoTracking();
+            }
+
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+
+            return query.OrderByDescending(orderByDescending).FirstOrDefault();
+        }
+
+        public T GetLast(Expression<Func<T, bool>> filter, bool tracked = false, string includeProperties = null)
+        {
+            IQueryable<T> query = _db.Set<T>();
+
+            if (!tracked)
+            {
+                query = query.AsNoTracking();
+            }
+
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+
+            return query.OrderByDescending(x => EF.Property<int>(x, "Id")).FirstOrDefault();
+        }
+    }
 }

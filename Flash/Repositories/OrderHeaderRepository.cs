@@ -1,5 +1,7 @@
 ﻿using Flash.Data;
 using Flash.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Flash.Repositories
 {
@@ -52,4 +54,5 @@ namespace Flash.Repositories
 
 
 	}
+
 }
