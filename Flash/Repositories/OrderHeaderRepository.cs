@@ -6,7 +6,7 @@ namespace Flash.Repositories
 	// aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context
 	public class OrderHeaderRepository : Repsitory<OrderHeader>, IOrderHeaderRepository
 	{
-		private readonly aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context _db;
+		private  aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context _db;
 
 		public OrderHeaderRepository(aspnetFlashea0b459b975b45bcb0db4ccd1080c8c3Context db) : base(db)
 		{
@@ -17,18 +17,18 @@ namespace Flash.Repositories
 		{
 			_db.OrderHeaders.Update(orderHeader);
 		}
-		public void UpdateStatus(int id, string orderStatus, string? paymentStatus = null)
-		{
-			var orderFromDb = _db.OrderHeaders.FirstOrDefault(u => u.Id == id);
-			if (orderFromDb != null)
-			{
-				orderFromDb.OrderStatus = orderStatus;
-				if (!string.IsNullOrEmpty(paymentStatus))
-				{
-					orderFromDb.PaymentStatus = paymentStatus;
-				}
-			}
-		}
+		//public void UpdateStatus(int id, string orderStatus, string? paymentStatus = null)
+		//{
+		//	var orderFromDb = _db.OrderHeaders.FirstOrDefault(u => u.Id == id);
+		//	if (orderFromDb != null)
+		//	{
+		//		orderFromDb.OrderStatus = orderStatus;
+		//		if (paymentStatus!=null)
+		//		{
+		//			orderFromDb.PaymentStatus = paymentStatus;
+		//		}
+		//	}
+		//}
 
 		public void UpdateStripePaymentID(int id, string sessionId, string paymentIntentId)
 		{

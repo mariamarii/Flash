@@ -637,13 +637,13 @@
                             <p class="mb-1 text-left">Total (tax included)</p>
                             <h6 class="mb-1 text-right">$26.48</h6>
                         </div>
-                        <form asp-action="Summary" asp-controller="Home">
-                            <button class="btn-block btn-blue">
+                        <form method="post" asp-action="Summary" asp-controller="Home">
+                            <a href="/Home/Summary" class="btn-block btn-blue">
                                 <span>
                                     <span id="checkout">Checkout</span>
                                     <span id="check-amt">$26.48</span>
                                 </span>
-                            </button>
+                            </a>
                         </form>
                     </div>
                 </div>

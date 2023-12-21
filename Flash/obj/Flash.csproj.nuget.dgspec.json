@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj": {}
+    "C:\\SWE project\\Flash\\Flash\\Flash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj": {
+    "C:\\SWE project\\Flash\\Flash\\Flash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj",
+        "projectUniqueName": "C:\\SWE project\\Flash\\Flash\\Flash.csproj",
         "projectName": "Flash",
-        "projectPath": "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\Flash.csproj",
-        "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\El-Wattaneya\\OneDrive\\Desktop\\new\\Flash\\Flash\\obj\\",
+        "projectPath": "C:\\SWE project\\Flash\\Flash\\Flash.csproj",
+        "packagesPath": "C:\\Users\\hsoopa\\.nuget\\packages\\",
+        "outputPath": "C:\\SWE project\\Flash\\Flash\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hsoopa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

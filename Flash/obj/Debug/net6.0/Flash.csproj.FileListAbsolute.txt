@@ -1525,3 +1525,4 @@ C:\Users\El-Wattaneya\OneDrive\Desktop\new\Flash\Flash\obj\Debug\net6.0\refint\F
 C:\Users\El-Wattaneya\OneDrive\Desktop\new\Flash\Flash\obj\Debug\net6.0\Flash.pdb
 C:\Users\El-Wattaneya\OneDrive\Desktop\new\Flash\Flash\obj\Debug\net6.0\Flash.genruntimeconfig.cache
 C:\Users\El-Wattaneya\OneDrive\Desktop\new\Flash\Flash\obj\Debug\net6.0\ref\Flash.dll
+C:\SWE project\Flash\Flash\bin\Debug\net6.0\Stripe.net.dll

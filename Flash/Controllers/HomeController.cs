@@ -108,13 +108,12 @@ namespace Flash.Controllers
 
             return RedirectToAction(nameof(CartIndex));
         }
-
-
+     
         public IActionResult CartIndex()
 		{
 			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var UserId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
-			ShoppingCartVM = new()
+			ShoppingCartVM = new ()
 			{
 				ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(x => x.UserId == UserId, includeProperties: "Product"),
 				OrderHeader = new()
@@ -138,67 +137,68 @@ namespace Flash.Controllers
 
 		}
 
-		public IActionResult Summary()
-		{
-			var claimsIdentity = (ClaimsIdentity)User.Identity;
-			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+        public IActionResult Summary()
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
 
-			ShoppingCartVM = new ShoppingCartVM()
-			{
-				ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId,
-				includeProperties: "Product"),
-				OrderHeader = new OrderHeader()
-			};
+            ShoppingCartVM = new ShoppingCartVM()
+            {
+                ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId,
+                includeProperties: "Product"),
+                OrderHeader = new OrderHeader()
+            };
 
             ShoppingCartVM.OrderHeader.User = _unityOfWork.User.Get(u => u.Id == userId);
 
-			ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.User.UserName;
-			ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.User.PhoneNumber;
-			ShoppingCartVM.OrderHeader.StreetAddress = ShoppingCartVM.OrderHeader.User.StreetAddress;
-			ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.User.City;
-			ShoppingCartVM.OrderHeader.State = ShoppingCartVM.OrderHeader.User.State;
-			ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.User.PostalCode;
+            ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.User.UserName;
+            ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.User.PhoneNumber;
+            ShoppingCartVM.OrderHeader.StreetAddress = ShoppingCartVM.OrderHeader.User.StreetAddress;
+            ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.User.City;
+            ShoppingCartVM.OrderHeader.State = ShoppingCartVM.OrderHeader.User.State;
+            ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.User.PostalCode;
 
             ShoppingCartVM.OrderHeader.OrderTotal = 0;
-            foreach (var cart in ShoppingCartVM.ShoppingCartList)//
-			{
-				cart.Price = (decimal)GetPriceBasedOnQuantity(cart);
-				ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+            foreach (var cart in ShoppingCartVM.ShoppingCartList)
+            {
+                cart.Price = (decimal)GetPriceBasedOnQuantity(cart);
+                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
 
-			}
-			//_unityOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
-			//_unityOfWork.Save();
-			return View( ShoppingCartVM);
-		}
-
-
+            }
+            _unityOfWork.OrderHeader.Update(ShoppingCartVM.OrderHeader);
+			_unityOfWork.Save();
+            return View("Summary", ShoppingCartVM);
+        }
 
 
-		[HttpPost]
+
+
+
+        [HttpPost]
 		[ActionName("Summary")]
-		
-		public IActionResult SummaryPost(ShoppingCartVM ShoppingCartVM)
+		// [ValidateAntiForgeryToken]
+		public IActionResult SummaryPost()
 		{
 			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+            ShoppingCartVM.OrderHeader = _unityOfWork.OrderHeader.Get(u => u.UserId == userId);
 
-			ShoppingCartVM.ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId, includeProperties: "Product");
-			//ShoppingCartVM.OrderHeader = _unityOfWork.OrderHeader.Get(u => u.UserId == userId);
-            AspNetUser applicationUser = _unityOfWork.User.Get(u => u.Id == userId);
+            ShoppingCartVM.ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId, includeProperties: "Product");
+
 
 			ShoppingCartVM.OrderHeader.OrderDate = DateTime.Now;
 			ShoppingCartVM.OrderHeader.UserId = userId;
 
 			ShoppingCartVM.OrderHeader.OrderTotal = 0;
 
-            foreach (var cart in ShoppingCartVM.ShoppingCartList)
+			foreach (var cart in ShoppingCartVM.ShoppingCartList)
 			{
 
 				cart.Price = (decimal)GetPriceBasedOnQuantity(cart);
 				ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
 			}
 
-			_unityOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
+			_unityOfWork.OrderHeader.Update(ShoppingCartVM.OrderHeader);
 			_unityOfWork.Save();
 
 			foreach (var cart in ShoppingCartVM.ShoppingCartList)
@@ -210,16 +210,19 @@ namespace Flash.Controllers
 					Price = cart.Price,
 					OrderHeaderId = ShoppingCartVM.OrderHeader.Id,
 
-                };
+				};
 				_unityOfWork.OrderDetail.Add(orderDetail);
+				_unityOfWork.Save();
 
-            }
-            _unityOfWork.Save();
+			}
+			_unityOfWork.ShoppingCart.RemoveRange(ShoppingCartVM.ShoppingCartList);
+			_unityOfWork.Save();
 
 
-            //return RedirectToAction(nameof(OrderConfirmation), new { id = ShoppingCartVM.OrderHeader.Id });
-            // Stripe Setting
-            var domain = "http://localhost:7166/";
+
+			//return RedirectToAction(nameof(OrderConfirmation), new { id = ShoppingCartVM.OrderHeader.Id });
+			// Stripe Setting
+			var domain = "http://localhost:7166/";
 			var options = new SessionCreateOptions
 			{
 				SuccessUrl = domain + $"Home/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",

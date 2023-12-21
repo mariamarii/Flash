@@ -41,8 +41,6 @@ namespace Flash.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.UseCollation("SQL_Latin1_General_CP1_CI_AS");
-
             modelBuilder.Entity<AspNetRole>(entity =>
             {
                 entity.HasIndex(e => e.NormalizedName, "RoleNameIndex")
@@ -222,19 +220,11 @@ namespace Flash.Models
 
                 entity.Property(e => e.OrderDate).HasColumnType("datetime");
 
-                entity.Property(e => e.OrderStatus)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-
                 entity.Property(e => e.OrderTotal).HasColumnType("decimal(18, 2)");
 
                 entity.Property(e => e.PaymentDate).HasColumnType("datetime");
 
                 entity.Property(e => e.PaymentIntentId)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.PaymentStatus)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
@@ -246,9 +236,7 @@ namespace Flash.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.SessionId)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.SessionId).IsUnicode(false);
 
                 entity.Property(e => e.ShippingDate).HasColumnType("datetime");
 
