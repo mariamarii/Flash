@@ -12,6 +12,6 @@ namespace Flash.Models
         public decimal Price { get; set; }
 
         public virtual OrderHeader OrderHeader { get; set; } = null!;
-        public virtual Product OrderHeaderNavigation { get; set; } = null!;
+        public virtual Product Product { get; set; } = null!;
     }
 }

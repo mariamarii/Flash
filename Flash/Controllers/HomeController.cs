@@ -12,6 +12,7 @@ using Flash.Repositories;
 using Stripe.Checkout;
 using Microsoft.AspNetCore.Authorization;
 using System.Linq;
+using static System.Net.WebRequestMethods;
 
 namespace Flash.Controllers
 {
@@ -112,8 +113,13 @@ namespace Flash.Controllers
      
         public IActionResult CartIndex()
 		{
+			if (!User.Identity.IsAuthenticated)
+			{
+				return Redirect($"https://localhost:7166/Identity/Account/Login");
+			}
 			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var UserId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+			
 			ShoppingCartVM = new ()
 			{
 				ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(x => x.UserId == UserId, includeProperties: "Product"),
@@ -127,9 +133,7 @@ namespace Flash.Controllers
 
 				cart.Price = GetPriceBasedOnQuantity(cart);
 				ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
-				//_unityOfWork.ShoppingCart.Update(cart);
 			}
-			//_unityOfWork.Save(); 
 			return View("CartIndex",ShoppingCartVM);
 		}
 		private decimal GetPriceBasedOnQuantity(ShoppingCart shoppingCart)
@@ -166,8 +170,10 @@ namespace Flash.Controllers
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
 
             }
-		      _unityOfWork.OrderHeader.Update(ShoppingCartVM.OrderHeader);
-		      _unityOfWork.Save();
+
+		      //_unityOfWork.OrderHeader.Update(ShoppingCartVM.OrderHeader);
+		      //_unityOfWork.Save();
+			var name = ShoppingCartVM.OrderHeader.Name;
             return View(ShoppingCartVM);
         }
 
@@ -178,63 +184,65 @@ namespace Flash.Controllers
         [HttpPost]
 		[ActionName("Summary")]
 		[ValidateAntiForgeryToken]
-		public IActionResult SummaryPost()
+		public IActionResult Summary(ShoppingCartVM shoppingCartVM)
 		{
 			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
-            ShoppingCartVM.OrderHeader = _unityOfWork.OrderHeader
-			  .GetLast(o => o.UserId == userId);
+            //ShoppingCartVM.OrderHeader = _unityOfWork.OrderHeader
+			  //.GetLast(o => o.UserId == userId);
 
 
-            ShoppingCartVM.ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId, includeProperties: "Product");
+            shoppingCartVM.ShoppingCartList = _unityOfWork.ShoppingCart.GetAll(u => u.UserId == userId, includeProperties: "Product");
 
 
-			ShoppingCartVM.OrderHeader.OrderDate = DateTime.Now;
-			ShoppingCartVM.OrderHeader.UserId = userId;
+			shoppingCartVM.OrderHeader.OrderDate = DateTime.Now;
+			shoppingCartVM.OrderHeader.UserId = userId;
 
-			ShoppingCartVM.OrderHeader.OrderTotal = 0;
+			shoppingCartVM.OrderHeader.OrderTotal = 0;
 
-			foreach (var cart in ShoppingCartVM.ShoppingCartList)
+			foreach (var cart in shoppingCartVM.ShoppingCartList)
 			{
 
 				cart.Price = (decimal)GetPriceBasedOnQuantity(cart);
-				ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+				shoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
 			}
 
-			_unityOfWork.OrderHeader.Update(ShoppingCartVM.OrderHeader);
+			_unityOfWork.OrderHeader.Add(shoppingCartVM.OrderHeader);
 			_unityOfWork.Save();
 
-			foreach (var cart in ShoppingCartVM.ShoppingCartList)
+			foreach (var cart in shoppingCartVM.ShoppingCartList)
 			{
 				OrderDetail orderDetail = new()
 				{
 					ProductId = cart.ProductId,
 					Count = cart.Count,
 					Price = cart.Price,
-					OrderHeaderId = ShoppingCartVM.OrderHeader.Id,
+					OrderHeaderId = shoppingCartVM.OrderHeader.Id,
 
 				};
 				_unityOfWork.OrderDetail.Add(orderDetail);
 				_unityOfWork.Save();
 
 			}
-			_unityOfWork.ShoppingCart.RemoveRange(ShoppingCartVM.ShoppingCartList);
+			
+			_unityOfWork.ShoppingCart.RemoveRange(shoppingCartVM.ShoppingCartList);
 			_unityOfWork.Save();
 
 
 
 			//return RedirectToAction(nameof(OrderConfirmation), new { id = ShoppingCartVM.OrderHeader.Id });
 			// Stripe Setting
-			var domain = "http://localhost:7166/";
+			var domain = "https://localhost:7166/";
 			var options = new SessionCreateOptions
 			{
-				SuccessUrl = domain + $"Home/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
+                
+				SuccessUrl = domain + $"Home/Category",
 				CancelUrl = domain + $"Home/index",
 				LineItems = new List<SessionLineItemOptions>(),
 				Mode = "payment",
 			};
 
-			foreach (var item in ShoppingCartVM.ShoppingCartList)
+			foreach (var item in shoppingCartVM.ShoppingCartList)
 			{
 				var sessionLineItem = new SessionLineItemOptions
 				{
@@ -254,46 +262,13 @@ namespace Flash.Controllers
 
 			var service = new SessionService();
 			Session session = service.Create(options);
-			_unityOfWork.OrderHeader.UpdateStripePaymentID(ShoppingCartVM.OrderHeader.Id, session.Id, session.PaymentIntentId);
+			_unityOfWork.OrderHeader.UpdateStripePaymentID(shoppingCartVM.OrderHeader.Id, session.Id, session.PaymentIntentId);
 			_unityOfWork.Save();
 			Response.Headers.Add("Location", session.Url);
 			return new StatusCodeResult(303);
 
 
 		}
-
-
-
-
-		public IActionResult OrderConfirmation(int id)
-		{
-			OrderHeader orderHeader = _unityOfWork.OrderHeader.Get(u => u.Id == id);
-			//if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
-			//{
-			//this is an order by customer
-
-			var service = new SessionService();
-            Session session = service.Get(orderHeader.SessionId);
-
-			//if (session.PaymentStatus.ToLower() == "paid")
-			//{
-			//	//_unityOfWork.OrderHeader.PaymentStatus(id, session.Id, session.PaymentIntentId);
-			//	//_unityOfWork.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
-			//	_unityOfWork.Save();
-			//}
-			_unityOfWork.Save();
-
-			//}
-
-			//List<ShoppingCart> shoppingCarts = _unityOfWork.ShoppingCart
-			//	.GetAll(u => u.UserId == orderHeader.UserId).ToList();
-
-			//_unityOfWork.ShoppingCart.RemoveRange(shoppingCarts);
-			//_unityOfWork.Save();
-
-			return View(id);
-		}
-
 
 
 

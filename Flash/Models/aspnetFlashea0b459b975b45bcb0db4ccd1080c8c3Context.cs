@@ -41,6 +41,8 @@ namespace Flash.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.UseCollation("SQL_Latin1_General_CP1_CI_AS");
+
             modelBuilder.Entity<AspNetRole>(entity =>
             {
                 entity.HasIndex(e => e.NormalizedName, "RoleNameIndex")
@@ -197,13 +199,13 @@ namespace Flash.Models
                     .WithMany(p => p.OrderDetails)
                     .HasForeignKey(d => d.OrderHeaderId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_OrderDetails_OrderHeader");
+                    .HasConstraintName("FK_OrderDetails_OrderHeader1");
 
-                entity.HasOne(d => d.OrderHeaderNavigation)
+                entity.HasOne(d => d.Product)
                     .WithMany(p => p.OrderDetails)
-                    .HasForeignKey(d => d.OrderHeaderId)
+                    .HasForeignKey(d => d.ProductId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_OrderDetails_Product");
+                    .HasConstraintName("FK_OrderDetails_Product1");
             });
 
             modelBuilder.Entity<OrderHeader>(entity =>
