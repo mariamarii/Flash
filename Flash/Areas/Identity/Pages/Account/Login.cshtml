@@ -3,13 +3,14 @@
 
 @{
     ViewData["Title"] = "Log in";
-    Layout = "~/Views/Shared/External.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Login</title>
@@ -20,7 +21,93 @@
 
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="~/css/style12.css">
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            background-color: #F0E9E3;
+            background-image: url('/images/login.jpg');
+            background-size:contain;
+            
+            background-position: center;
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+           /*  background-color: black;
+            background-size: cover;
+            background-position: center; */
+            position: relative;
+        }
+
+        .inner {
+            background: rgba(255, 255, 255, 0); /* Adjust alpha channel for transparency (0 is fully transparent, 1 is fully opaque) */
+            padding: 40px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: animate__animated animate__fadeInDown animate__delay-1s;
+        }
+
+        /* Increased font-size and padding for the form fields */
+        .form-floating {
+            margin-bottom: 30px;
+        }
+
+            .form-floating label {
+                font-size: 18px;
+            }
+
+            .form-floating input {
+                font-size: 16px;
+                padding: 15px;
+            }
+
+        #login-submit {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            #login-submit:hover {
+                background-color: #45a049;
+            }
+
+        ..form-floating label {
+            font-size: 18px;
+            background: rgba(255, 255, 255, 0); /* Fully transparent background for labels */
+        }
+
+        .form-floating input {
+            font-size: 16px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0); /* Fully transparent background for text boxes */
+        }
+
+
+
+        /* Add any other custom styles here */
+    </style>
 </head>
+
 
 <body>
 
@@ -28,7 +115,7 @@
         <div class="inner">
             <div class="image-holder">
                 <br /><br /><br />
-                <img src="~/images/Flashreg.jpg" alt="">
+                @* <img src="~/images/Flashreg.jpg" alt=""> *@
             </div>
            <form id="account" method="post">
             <h3>Login Form</h3>
@@ -56,9 +143,7 @@
                     <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
                 </div>
                 <div>
-                    <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
-                    </p>
+                    
                     <p>
                         <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
                     </p>
@@ -74,6 +159,7 @@
         </div>
    
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
 </body>
 </html>
 

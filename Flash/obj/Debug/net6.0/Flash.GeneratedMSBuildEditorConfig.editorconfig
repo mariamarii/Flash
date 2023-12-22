@@ -9,133 +9,133 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Flash
 build_property.RootNamespace = Flash
-build_property.ProjectDir = C:\Users\El-Wattaneya\OneDrive\Documents\GitHub\Flash\Flash\
+build_property.ProjectDir = C:\SWE project\Flash\Flash\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\El-Wattaneya\OneDrive\Documents\GitHub\Flash\Flash
+build_property.MSBuildProjectDirectory = C:\SWE project\Flash\Flash
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/SWE project/Flash/Flash/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Burgsta.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Burgsta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXJnc3RhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/CartIndex.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/CartIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Category.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Contact.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/ContactUs.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Create.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Creme.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Creme.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Crinkle.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Crinkle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmlua2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Details.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Index.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Privacy.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/summary.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/summary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Home/Thankyou.cshtml]
+[C:/SWE project/Flash/Flash/Views/Home/Thankyou.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFua3lvdS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Shared/Error.cshtml]
+[C:/SWE project/Flash/Flash/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Shared/External.cshtml]
+[C:/SWE project/Flash/Flash/Views/Shared/External.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEV4dGVybmFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Shared/_LoginPartial.cshtml]
+[C:/SWE project/Flash/Flash/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/SWE project/Flash/Flash/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/_ViewImports.cshtml]
+[C:/SWE project/Flash/Flash/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/_ViewStart.cshtml]
+[C:/SWE project/Flash/Flash/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/El-Wattaneya/OneDrive/Documents/GitHub/Flash/Flash/Views/Shared/_Layout.cshtml]
+[C:/SWE project/Flash/Flash/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-59eudgjb8q

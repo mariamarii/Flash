@@ -1,15 +1,69 @@
-﻿    @model List<Flash.Models.Category>
+﻿@model List<Flash.Models.Category>
+
+<style>
+    /* Hide the block initially */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sec-banner {
+        height: 100%;
+    }
+
+    .block1 {
+        opacity: 0;
+        transform: translateX(50px); /* Move the block from right to left initially */
+        transition: opacity 0.5s, transform 0.5s;
+    }
+
+        /* Show the block when it comes into view */
+        .block1.appear {
+            opacity: 1;
+            transform: translateX(0); /* Move the block from right to left when appearing */
+        }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var blocks = document.querySelectorAll(".block1");
+
+        function checkVisibility() {
+            blocks.forEach(function (block, index) {
+                var rect = block.getBoundingClientRect();
+                var viewWidth = Math.max(document.documentElement.clientWidth, window.innerWidth);
+
+                if (rect.left <= viewWidth * 0.75) {
+                    block.classList.add("appear");
+                }
+            });
+        }
+
+        // Initial check on page load
+        checkVisibility();
+
+        // Check visibility on scroll
+        document.addEventListener("scroll", checkVisibility);
+    });
+</script>
 
 <!-- Banner -->
-<div class="sec-banner bg0 p-t-80 p-b-50">
-    <div class="container">
+<div class="sec-banner bg0 p-t-80 p-b-50" style="background-color:#C4AE78">
+    <div class="container" style="padding-top:3%">
+        <div class="p-b-10">
+            <h3 class="ltext-103 cl5">
+                Our Restaurants
+            </h3>
+        </div>
         <div class="row">
             @foreach (var item in Model)
             {
-                <div class="col-md-6 col-lg-4 p-b-30">
+                <div class="col-md-6 col-lg-4 p-b-30 ">
+                    <!-- Add block1 class to the column div -->
                     <!-- Block1 -->
-                    <div class="block1 wrap-pic-w">
-                        <img src="~/images/@item.ImageUrl" alt="IMG-BANNER">
+                    <div class="wrap-pic-w">
+                        <img src="~/images/@item.ImageUrl" alt="IMG-BANNER" class="block1"> <!-- Add the class to the image tag -->
 
                         <a href=@item.MenuUrl class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
                             <div class="block1-txt-child1 flex-col-l">
@@ -30,5 +84,3 @@
         </div>
     </div>
 </div>
-
-
