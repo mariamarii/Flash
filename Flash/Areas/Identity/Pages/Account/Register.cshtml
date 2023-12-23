@@ -2,104 +2,123 @@
 @model RegisterModel
 @{
     ViewData["Title"] = "Register";
-    Layout = "~/Views/Shared/External.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>RegistrationForm_v1 by Colorlib</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>RegistrationForm_v1 by Colorlib</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- MATERIAL DESIGN ICONIC FONT -->
-	<link rel="stylesheet" href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
 
-	<!-- STYLE CSS -->
-	<link rel="stylesheet" href="~/css/style12.css">
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="~/css/style12.css">
+    <style>
+        /* Custom styles for the two-column layout */
+        .form-wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .form-floating {
+            width: 75%; /* Adjust the width as needed */
+            margin-bottom: 1rem;
+        }
+
+        /* Optional: Add additional styling based on your design preferences */
+        /* For example, you can add padding, borders, etc. */
+
+        /* New styles for two columns */
+        .form-column {
+            flex: 1 1 48%; /* Adjust the width and margin as needed */
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
 
 <body>
 
-	<div class="wrapper" style="background-image: url('~/images/bg-registration-form-1.jpg');">
-		<div class="inner">
-			<div class="image-holder">
+    <div class="wrapper" style="background-image: url('~/images/bg-registration-form-1.jpg');">
+        <div class="inner">
+            <div class="image-holder">
                 <br /><br /><br /><br />
-				<img src="~/images/Flashreg.jpg" alt="">
-			</div>
+                <img src="~/images/Flashreg.jpg" alt="">
+            </div>
             <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-				<h3>Registration Form</h3>
-
+                <h3>Registration Form</h3>
 
                 <div class="form-wrapper">
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-column">
                         <div class="form-floating">
                             <label asp-for="Input.UserName" class="form-wrapper"></label>
                             <input asp-for="Input.UserName" class="form-control" autocomplete="username" aria-required="true" />
                             <span asp-validation-for="Input.UserName" class="text-danger"></span>
-
                         </div>
+                        <div class="form-floating">
+                            <label asp-for="Input.City" class="form-wrapper"> </label>
+                            <input asp-for="Input.City" class="form-control" autocomplete="email" aria-required="true" />
+                            <span asp-validation-for="Input.City" class="text-danger"></span>
                         </div>
-                <div class="form-floating">
+                        <div class="form-floating">
+                            <label asp-for="Input.State" class="form-wrapper"> </label>
+                            <input asp-for="Input.State" class="form-control" autocomplete="email" aria-required="true" />
+                            <span asp-validation-for="Input.State" class="text-danger"></span>
+                        </div>
+                    </div>
 
-                    <label asp-for="Input.City" lass="form-wrapper"> </label>
-                    <input asp-for="Input.City" class="form-control" autocomplete="email" aria-required="true" />
-                    <span asp-validation-for="Input.City" class="text-danger"></span>
-                </div>
-                <div class="form-floating">
-
-                    <label asp-for="Input.State" lass="form-wrapper"> </label>
-                    <input asp-for="Input.State" class="form-control" autocomplete="email" aria-required="true" />
-                    <span asp-validation-for="Input.State" class="text-danger"></span>
-                </div>
-                <div class="form-floating">
-
-                    <label asp-for="Input.StreetAddress" lass="form-wrapper"> </label>
-                    <input asp-for="Input.StreetAddress" class="form-control" autocomplete="email" aria-required="true" />
-                    <span asp-validation-for="Input.StreetAddress" class="text-danger"></span>
-                </div>
-                <div class="form-floating">
-
-                    <label asp-for="Input.PostalCode" lass="form-wrapper"> </label>
-                    <input asp-for="Input.PostalCode" class="form-control" autocomplete="email" aria-required="true" />
-                    <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
-                </div>
-
-                <div class="form-floating">
-                 
-                    <label asp-for="Input.Email" lass="form-wrapper"> </label>
-                    <input asp-for="Input.Email" class="form-control" autocomplete="email" aria-required="true" />
-                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    <div class="form-column">
+                        <div class="form-floating">
+                            <label asp-for="Input.StreetAddress" class="form-wrapper"> </label>
+                            <input asp-for="Input.StreetAddress" class="form-control" autocomplete="email" aria-required="true" />
+                            <span asp-validation-for="Input.StreetAddress" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating">
+                            <label asp-for="Input.PostalCode" class="form-wrapper"> </label>
+                            <input asp-for="Input.PostalCode" class="form-control" autocomplete="email" aria-required="true" />
+                            <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating">
+                            <label asp-for="Input.Email" class="form-wrapper"> </label>
+                            <input asp-for="Input.Email" class="form-control" autocomplete="email" aria-required="true" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="form-wrapper">
+                    <div class="form-column">
+                        <div class="form-floating">
+                            <label asp-for="Input.Password"></label>
+                            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating">
+                            <label asp-for="Input.ConfirmPassword"></label>
+                            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
 
+                    <div class="form-column">
+                        <div class="form-floating">
+                            <label asp-for="Input.PhoneNumber"></label>
+                            <input asp-for="Input.PhoneNumber" class="form-control" aria-required="true" />
+                            <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                        </div>
 
-                <div class="form-floating">
-                    <label asp-for="Input.Password"></label>
-                    <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+                    </div>
                 </div>
 
-
-                <div class="form-floating">
-                    <label asp-for="Input.ConfirmPassword"></label>
-                    <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
-                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                </div>
-                <div class="form-floating">
-                    <label asp-for="Input.PhoneNumber"></label>
-                    <input asp-for="Input.PhoneNumber" class="form-control" aria-required="true" />
-                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-                </div>
-
-                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
-			</form>
-		</div>
-	</div>
+            </form>
+        </div>
+    </div>
 
 </body>
 </html>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}

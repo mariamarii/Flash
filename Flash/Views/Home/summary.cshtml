@@ -2,422 +2,99 @@
 
 @using Microsoft.Extensions.Options;
 @inject IOptions<Flash.Utility.StripeSettings> Stripe
-@*  <link rel="stylesheet" type="text/css" href="~/css/checkkkkk.css">
- *@ @* <form method="post" >
-        <br />
-<div class="container mt-5 px-5">
 
-    <div class="mb-4">
-
-        <h2>Confirm order and pay</h2>
-        <span>please make the payment, after that you can enjoy all the features and benefits.</span>
-
-    </div>
-
-    <div class="row">
-
-        <div class="col-md-8">
-
-
-            <div class="card p-3">
-
-                <h6 class="text-uppercase">Payment details</h6>
-                <div class="inputbox mt-3"> <input asp-for="@Model.OrderHeader.Name" type="text" name="name" class="form-control" required="required">
-                    <span asp-validation-for ="@Model.OrderHeader.Name">
-
-                    </span> name on card</div>
-
-
-                <div class="row">
-
-                    <div class="col-md-6">
-
-                        <div class="inputbox mt-3 mr-2">
-                            <input type="text" name="name" class="form-control" required="required"> <i class="fa fa-credit-card"></i> <span>Card Number</span>
-
-
-                        </div>
-
-
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <div class="d-flex flex-row">
-
-
-                            <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required"> <span>Expiry</span> </div>
-
-                            <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required"> <span>CVV</span> </div>
-
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
-
-
-                <div class="mt-4 mb-4">
-
-                    <h6 class="text-uppercase">Billing Address</h6>
-
-
-                    <div class="row mt-3">
-
-                        <div class="col-md-6">
-
-                            <div class="inputbox mt-3 mr-2">
-                                <input asp-for="@Model.OrderHeader.StreetAddress" type="text" name="name" class="form-control" required="required">
-                                    <span asp-validation-for="@Model.OrderHeader.StreetAddress" class="text-danger"></span>
-
-                                <span>Street Address</span>
-                            </div>
-
-
-                        </div>
-
-
-                        <div class="col-md-6">
-
-                            <div class="inputbox mt-3 mr-2"> <input asp-for="@Model.OrderHeader.City" type="text" name="name" class="form-control" required="required">
-                                    <span asp-validation-for="@Model.OrderHeader.City" class="text-danger"></span>
-
-                                <span>City</span>
-                                </div>
-
-
-                        </div>
-
-
-
-
-                    </div>
-
-
-                    <div class="row mt-2">
-
-                        <div class="col-md-6">
-
-                            <div class="inputbox mt-3 mr-2"> <input asp-for="@Model.OrderHeader.State" type="text" name="name" class="form-control" required="required">
-
-                                <span>State/Province</span>
-                                    <span asp-validation-for="@Model.OrderHeader.State" class="text-danger"></span>
-
-                                </div>
-
-
-                        </div>
-
-
-                        <div class="col-md-6">
-
-                            <div class="inputbox mt-3 mr-2"> <input asp-for="@Model.OrderHeader.PostalCode" type="text" name="name" class="form-control" required="required">
-                                    <span asp-validation-for="@Model.OrderHeader.PostalCode" class="text-danger"></span>
-
-                                <span>Zip code</span> </div>
-
-
-                        </div>
-
-
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="mt-4 mb-4 d-flex justify-content-between">
-
-
-                <span>Previous step</span>
-
-
-                <button class="btn btn-success px-3">@Model.OrderHeader.OrderTotal</button>
-
-
-
-
-            </div>
-
-        </div>
-
-        <div class="col-md-4">
-
-            <div class="card card-blue p-3 text-white mb-3">
-
-                <span>You have to pay</span>
-                <div class="d-flex flex-row align-items-end mb-3">
-                    <h1 class="mb-0 yellow">@Model.OrderHeader.OrderTotal</h1> <span>.99</span>
-                </div>
-
-                <span>Enjoy all the features and perk after you complete the payment</span>
-                <a href="#" class="yellow decoration">Know all the features</a>
-
-                <div class="hightlight">
-
-                    <span>100% Guaranteed support and update for the next 5 years.</span>
-
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-</div>
-</form> *@
-@* <div class="wrapper">
-    <div class="container">
-        <form method="post">
-          
-            <h1>
-                <i class="fas fa-shipping-fast"></i>
-                Shipping Details
-            </h1>
-            <div class="name">
-                <div>
-                    <label for="f-name">First</label>
-                    <input asp-for="@Model.OrderHeader.Name" type="text" name="f-name" required="required">
-                     <span asp-validation-for="@Model.OrderHeader.Name"></span>
-                </div>
-
-            </div>
-            <div class="street">
-                <label for="name">Street</label>
-                <input asp-for="@Model.OrderHeader.StreetAddress" type="text" name="address" required="required">
-                <span asp-validation-for="@Model.OrderHeader.StreetAddress"></span>
-
-            </div>
-            <div class="address-info">
-                <div>
-                    <label for="city">City</label>
-                    <input asp-for="@Model.OrderHeader.City" type="text" name="city" required="required">
-                    <span asp-validation-for="@Model.OrderHeader.City"></span>
-
-                </div>
-                <div>
-                    <label for="state">State</label>
-                    <input asp-for="@Model.OrderHeader.State" type="text" name="state" required="required">
-                    <span asp-validation-for="@Model.OrderHeader.State"></span>
-
-                </div>
-                <div>
-                    <label for="zip">Zip</label>
-                    <input asp-for="@Model.OrderHeader.PostalCode" type="text" name="zip" required="required">
-                    <span asp-validation-for="@Model.OrderHeader.PostalCode"></span>
-
-                </div>
-            </div> *@
-            @* <h1>
-                <i class="far fa-credit-card"></i> Payment Information
-            </h1>
-            <div class="cc-num">
-                <label for="card-num">Credit Card No.</label>
-                <input type="text" name="card-num">
-            </div>
-            <div class="cc-info">
-                <div>
-                    <label for="card-num">Exp</label>
-                    <input type="text" name="expire">
-                </div>
-                <div>
-                    <label for="card-num">CCV</label>
-                    <input type="text" name="security">
-                </div>
-            </div> *@
-          @*   <div class="btns">
-                <button>Purchase</button>
-                <button>Back to cart</button>
-            </div>
-        </form>
-    </div>
-</div> *@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Checkout example · Bootstrap</title>
+<head>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="~/css/checkkkkk.css">
-@* <link href="/css//checkkkkk.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- *@
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/checkkkkk.css">
+</head>
+<body>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    <div id="wrapper" style="padding-top:5%">
+        <div class="container1">
+            <div class="order">
+                <h2 style="padding-top: 10%;">Your order summary</h2>
+                @foreach (var item in Model.ShoppingCartList){
+                <div class="item">
+                    <img src='~/images/@item.Product.ImageUrl' alt='' width="130" height="120" style="margin: 1px 1px;">
+                    <div class="info">
+                            <h4>@item.Product.Name</h4>
+                            <p class="quantity">Quantity: @item.Product.Quantity</p>
+                            <p class="price">@item.Product.Price</p>
+                    </div> <!-- .info -->
+                </div> <!-- .item -->}
+               <h4 class="ship">Shipping: FREE</h4>
+                <hr>
+                <h3 class="total">TOTAL: @Model.OrderHeader.OrderTotal</h3>
+            </div> <!-- .order -->
+        </div> <!-- .container1 -->
 
-     @*  @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        } 
-      }*@
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="form-validation.css" rel="stylesheet">
-  </head>
-  <body class="bg-light">
-    <div class="container">
-  <div class="py-5 text-center">
-    <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-    <h2>Checkout form</h2>
-    <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-  </div>
+        <div class="container2" style="padding-top:10%">
+            <div class="checkout">
+                <form method="post">
 
-  <div class="row">
-    <div class="col-md-4 order-md-2 mb-4">
-      <h4 class="d-flex justify-content-between align-items-center mb-3">
-        <span class="text-muted">Your cart</span>
-        <span class="badge badge-secondary badge-pill">3</span>
-      </h4>
-      <ul class="list-group mb-3">
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Product name</h6>
-            <small class="text-muted">Brief description</small>
-          </div>
-          <span class="text-muted">$12</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Second product</h6>
-            <small class="text-muted">Brief description</small>
-          </div>
-          <span class="text-muted">$8</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Third item</h6>
-            <small class="text-muted">Brief description</small>
-          </div>
-          <span class="text-muted">$5</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between bg-light">
-          <div class="text-success">
-            <h6 class="my-0">Promo code</h6>
-            <small>EXAMPLECODE</small>
-          </div>
-          <span class="text-success">-$5</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-          <span>Total (USD)</span>
-          <strong>$20</strong>
-        </li>
-      </ul>
-     
-      <form  class="card p-2">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Promo code">
-          <div class="input-group-append">
-            <button type="submit" class="btn btn-secondary">Redeem</button>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div class="col-md-8 order-md-1">
-      <h4 class="mb-3">Billing address</h4>
-      <form method="post" class="needs-validation" novalidate>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="firstName">First name</label>
-            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-            <div class="invalid-feedback">
-              Valid first name is required.
-            </div>
-          </div>
-          
-        </div>
+                    <div class="payment" style="margin-block-end: 25%;">
+                    <div class="content">
+                        <div class="infos">
 
-        <div class="mb-3">
-          <label for="username">Username</label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text"></span>
-            </div>
-            <label asp-for="@Model.OrderHeader.Name"></label>
-            <input asp-for="@Model.OrderHeader.Name"  type="text" class="form-control" id="username" placeholder="Username" required>
-            <span asp-validation-for="@Model.OrderHeader.Name"></span>
-            <div class="invalid-feedback" style="width: 100%;">
-              Your username is required.
-            </div>
-          </div>
-        </div>
+                            <div class="method">
+                                <h2>Flash Payment</h2>
+                            </div> <!-- .title -->
+
+                            <div class="cardHolderName">
+                                <p class="title">Name</p>
+                                <input asp-for="@Model.OrderHeader.Name" type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                <span asp-validation-for="@Model.OrderHeader.Name"></span>
+                            </div> <!-- cardHolderName -->
 
 
-        <div class="mb-3">
-          <label for="address">Address</label>
-          <label asp-for="@Model.OrderHeader.City"></label>
-          <input asp-for="@Model.OrderHeader.City" type="text" class="form-control" id="address" placeholder="1234 Main St" required>
-          <span asp-validation-for="@Model.OrderHeader.City"></span>
-          <div class="invalid-feedback">
-            Please enter your shipping address.
-          </div>
-        </div>
+                            <div class="cardHolderName">
+                                <label class="title">Address City</label>
+                                <input asp-for="@Model.OrderHeader.City" type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                <span asp-validation-for="@Model.OrderHeader.City"></span>
+                            </div> <!-- cardHolderName -->
 
-        <div class="mb-3">
-          <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
-          <label asp-for="@Model.OrderHeader.State"></label>
-          <input asp-for="@Model.OrderHeader.State"  type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-          <span asp-validation-for="@Model.OrderHeader.State"></span>
-      </div>
-        
-        <div class="mb-3">
-          <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
-          <label asp-for="@Model.OrderHeader.StreetAddress"></label>
-          <input asp-for="@Model.OrderHeader.StreetAddress"  type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-        <span asp-validation-for="@Model.OrderHeader.StreetAddress"></span>
-        </div>
+                            <div class="cardHolderName">
+                                <label class="title">Address State</label>
+                                <input asp-for="@Model.OrderHeader.State" type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                <span asp-validation-for="@Model.OrderHeader.State"></span>
+                            </div> <!-- cardHolderName -->
 
-                
-        <div class="mb-3">
-          <label for="address2">phone 2 <span class="text-muted">(Optional)</span></label>
-          <label asp-for="@Model.OrderHeader.PhoneNumber"></label>
-          <input asp-for="@Model.OrderHeader.PhoneNumber"  type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-        <span asp-validation-for="@Model.OrderHeader.PhoneNumber"></span>
-        </div>
+                            <div class="cardHolderName">
+                                <label class="title">Address Street</label>
+                                <input asp-for="@Model.OrderHeader.StreetAddress" type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                <span asp-validation-for="@Model.OrderHeader.StreetAddress"></span>
+                            </div> <!-- cardHolderName -->
 
-          <div class="col-md-3 mb-3">
-            <label for="zip">Zip</label>
-            <label asp-for="@Model.OrderHeader.PostalCode"></label>
-            <input asp-for="@Model.OrderHeader.PostalCode"  type="text" class="form-control" id="zip" placeholder="" required>
-            <span asp-validation-for="@Model.OrderHeader.PostalCode"></span>
-            <div class="invalid-feedback">
-              Zip code required.
-            </div>
-          </div>
-        
-       
-        
-        <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
-      </form>
-    </div>
-  </div>
 
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-        <script src="https://getbootstrap.com/docs/4.3/examples/checkout/form-validation.js"></script></body>
+
+                            <div class="cardHolderName">
+                                <label class="title">phone</label>
+                                <input asp-for="@Model.OrderHeader.PhoneNumber" type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                <span asp-validation-for="@Model.OrderHeader.PhoneNumber"></span>
+                            </div> <!-- cardHolderName -->
+
+
+                            <div class="security">
+                                <p class="title">Postal code</p>
+                                <input asp-for="@Model.OrderHeader.PostalCode" type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                <span asp-validation-for="@Model.OrderHeader.PostalCode"></span>
+                            </div><!-- .security -->
+                            <button>Checkout</button>
+                        </div> <!-- .infos -->
+
+                    </div> <!-- .content -->
+                </div> <!-- .payment -->
+                </form>
+            </div> <!-- .checkout -->
+
+        </div> <!-- .container2 -->
+
+    </div> <!-- #wrapper -->
+</body>
 </html>
