@@ -11714,23 +11714,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACTIVE\\.nuget\\packages\\": {},
+    "C:\\Users\\hsoopa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Flah Project\\Flash\\Flash\\Flash.csproj",
+      "projectUniqueName": "C:\\SWE project\\Flash\\Flash\\Flash.csproj",
       "projectName": "Flash",
-      "projectPath": "D:\\Flah Project\\Flash\\Flash\\Flash.csproj",
-      "packagesPath": "C:\\Users\\ACTIVE\\.nuget\\packages\\",
-      "outputPath": "D:\\Flah Project\\Flash\\Flash\\obj\\",
+      "projectPath": "C:\\SWE project\\Flash\\Flash\\Flash.csproj",
+      "packagesPath": "C:\\Users\\hsoopa\\.nuget\\packages\\",
+      "outputPath": "C:\\SWE project\\Flash\\Flash\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ACTIVE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hsoopa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11739,6 +11739,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11819,7 +11820,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
