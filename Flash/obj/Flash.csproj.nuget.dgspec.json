@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Infotech\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj": {}
+    "D:\\Flah Project\\Flash\\Flash\\Flash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Infotech\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj": {
+    "D:\\Flah Project\\Flash\\Flash\\Flash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj",
+        "projectUniqueName": "D:\\Flah Project\\Flash\\Flash\\Flash.csproj",
         "projectName": "Flash",
-        "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Flash\\Flash\\Flash.csproj",
-        "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Flash\\Flash\\obj\\",
+        "projectPath": "D:\\Flah Project\\Flash\\Flash\\Flash.csproj",
+        "packagesPath": "C:\\Users\\ACTIVE\\.nuget\\packages\\",
+        "outputPath": "D:\\Flah Project\\Flash\\Flash\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACTIVE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
